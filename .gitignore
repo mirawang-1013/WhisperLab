@@ -1,0 +1,25 @@
+# Python 虚拟环境
+.venv/
+__pycache__/
+*.pyc
+
+# 音频：真实用户数据，绝不入库
+audio/
+*.wav
+*.ogg
+*.webm
+*.mp3
+*.m4a
+*.flac
+
+# 模型权重（几个 GB，也不该入库）
+models/
+
+# 实验输出
+results/
+
+# 密钥
+.env
+
+# macOS
+.DS_Store
